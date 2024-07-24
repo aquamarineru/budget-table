@@ -8,8 +8,8 @@ const Table = ({ data }) => {
   };
 
   return (
-    <div className="">
-      <table className="min-w-full border-separate border-spacing-0 table-auto">
+    <div className="w-full overflow-x-auto m-0">
+      <table className="min-w-[640px] border-separate border-spacing-0 table-auto md:w-full">
         <thead className="">
           <tr className="bg-table text-tableText">
             <th className="border-t border-b border-r border-white font-light p-2">Код строки</th>

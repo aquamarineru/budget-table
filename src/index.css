@@ -12,3 +12,67 @@
 html, body{
     height: 100%;
 }
+.line {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 2px;
+  background-color: #000;
+  z-index: 0; 
+}
+
+.line::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 2px;
+  background-color: #000;
+}
+
+.flex {
+  position: relative;
+  z-index: 1; /* Ensure it stays above the line */
+}
+  
+/* .line {
+    border-left: 2px dotted #ccc;
+    position: absolute;
+    left: 0; 
+    top: 0;
+    bottom: 0;
+  }
+  .horizontal-line {
+    height: 2px;
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+  } */
+  
+  /* .horizontal-line {
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 190px; /* Adjust based on the alignment */
+ 
+/*   .horizontal-line1 {
+    height: 3px;
+    width: 120px;
+    position: absolute;
+    left: 10px;
+    top: 30px;
+    transform: translateX(-10px);
+    z-index: 1;
+  }
+  .horizontal-line2 {
+    height: 3px;
+    width: 120px;
+    position: absolute;
+    left: 13%;
+    transform: translateX(0);
+    z-index: 1;
+  } */

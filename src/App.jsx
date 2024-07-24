@@ -28,11 +28,14 @@ function App() {
       <div className='grid grid-cols-1 lg:grid-cols-2 gap-4 mt-[30px]'>
         <Card />
         <Table data={data.table} />
-        <ColumnChart />
-        <LineCart />
+        <ColumnChart data={data.columnChart}  />
+        <LineCart data={data.lineChart} />
         <RedeploymentRequests />
-        <ControlPointsTable />
-        <ValueAchievement />
+        <div className='flex flex-col md:flex-row lg:flex-row items-start justify-between gap-4'>
+          <ControlPointsTable />
+          <ValueAchievement />
+        </div>
+        
       </div>
      
 
