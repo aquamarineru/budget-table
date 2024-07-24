@@ -10,7 +10,7 @@ export default function Card() {
     </div>
     <div className="flex items-center justify-between mb-2.5">
       <p className="lg:w-[500px] text-base md:text-lg w-[200px]">Кол-во гос. (муниц.) контрактов (контрактов)/соглашений (договоров)</p>
-      <span className="text-2xl font-bold text-left">6 290</span>
+      <span className="text-2xl font-bold text-left">6290</span>
     </div>
     <div className="flex items-center justify-between mb-2.5">
       <p className="text-base md:text-lg  ">Кассовый расход</p>

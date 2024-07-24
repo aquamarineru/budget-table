@@ -9,7 +9,7 @@ export default function ValueAchievement() {
       <div>
         <div className="flex items-center justify-between mt-4 ">
           <p>Достигнуто значений <br/> результатов, ед.</p>
-          <p className="font-bold text-xl">6 155 из 10 237</p>
+          <p className="font-bold text-xl text-left">6155 из 10237</p>
         </div>
         <div className="flex items-center justify-between mt-4">
           <div className="flex flex-row justify-between gap-4">
