@@ -4,7 +4,7 @@ import groupImage from '../assets/Group.svg';
 
 export default function RedeploymentRequests() {
   return (
-    <div className="border border-border p-4 mt-4 relative">
+    <div className="border border-border p-4 mt-4 relative overflow-x-auto w-full">
       <Title type="medium" className="mt-8">
         Запросы на перераспределение
       </Title>
